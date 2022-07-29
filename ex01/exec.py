@@ -2,7 +2,7 @@ import sys
 
 var = 1
 if len(sys.argv) == 1:
-    print("error 0 arg")
+    print("ya un truc a faire la")
 else:
-    print(sys.argv[-1])
-
+    for arguments in sys.argv:
+        print(arguments)

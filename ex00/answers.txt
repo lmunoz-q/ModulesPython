@@ -2,3 +2,4 @@ pip list
 pip show numpy
 pip uninstall numpy
 pip install --user numpy
+pip freeze > requirements.txt
